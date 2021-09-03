@@ -131,10 +131,15 @@ nav .fa{
 }
 
 /* ----- Droplet -----*/
+.publishedgames{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
 .thedroplet{
-    flex-basis: 31%;
-    border-radius: 50px;
-    margin-top: 20px;
+    border-radius: 20px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
@@ -142,13 +147,31 @@ nav .fa{
 
 .thedroplet img{
     width: 100%;
-    border-radius: 50px;
+    border-radius: 20px;
+    display: block;
+
+}
+.project-layer{
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.layer img{
-    width: 20%;
-   position: relative;
+.project-layer h3{
+    color: #fff;
 }
+
+.titles{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 
 /*----- course -----*/
 .course{
@@ -186,51 +209,6 @@ p{
     transition: 0.5s;
 }
 
-.layercontent{
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
-.layercontent:hover h3{
-    bottom: 49%;
-    opacity: 1;
-}
-
-.layercontent img{
-    width: 10%;
-    bottom: 0;
-    left: 40%;
-    transform: translateX(-60%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-
-}
-
-.layercontent h3{
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    left: 55%;
-    transform: translateX(-45%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-.layercontent:hover{
-    background: rgba(226, 0, 0, 0.7); 
-}
-
-.layercontent:hover img{
-    bottom: 40%;
-    opacity: 1;
-}
 
 h3{
     text-align: center;
