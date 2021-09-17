@@ -98,11 +98,17 @@ nav{
     background: #141E30;
 }
 
+.project{
+    width: 80%;
+    margin: auto;
+}
+
 .container{
     width: 60%;
-    margin: auto;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
+    margin-bottom: 50px;
 }
 
 .title{
@@ -133,6 +139,7 @@ nav{
     background: transparent;
     color: transparent;
     opacity: 0;
+
 }
 
 .overlay:hover{
